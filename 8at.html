@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Active Transport — Notes & Quiz</title>
+  <style>
+    :root{ --brand:#0f766e; --paper:#fffef7; --ink:#222; }
+    *{ box-sizing:border-box }
+    body{
+      margin:0; font-family:Inter, Arial, system-ui, sans-serif; background:#f7f5f9; color:var(--ink); line-height:1.6;
+      background-image:linear-gradient(white 97%, #e8f4f2 100%); background-size:100% 30px;
+    }
+    header{ background:var(--brand); color:#fff; padding:18px 22px; position:sticky; top:0; z-index:10;
+      box-shadow:0 2px 12px rgba(0,0,0,.15)}
+    header h1{ margin:0; font-size:1.25rem; letter-spacing:.3px }
+    .small{ opacity:.9; font-size:.9rem }
+    .wrap{ max-width:1000px; margin:22px auto; padding:0 14px }
+    .video-container{ display:flex; justify-content:center; margin-top:12px }
+    iframe{ width:85%; max-width:1000px; height:480px; border:2px solid #e3e8f5; border-radius:12px; background:#000;
+      box-shadow:0 4px 12px rgba(0,0,0,.15) }
+    @media (max-width:760px){ iframe{ width:95%; height:240px } }
+    .notes,.game{ background:var(--paper); border-radius:14px; box-shadow:0 4px 12px rgba(0,0,0,.08);
+      padding:18px; margin-bottom:18px }
+    .notes h2,.game h2{ color:#0f766e; border-bottom:2px solid #bfe3de; padding-bottom:6px; margin:0 0 12px }
+    details{ background:#fff; border:1px solid #eee; border-radius:10px; padding:10px 12px; margin:10px 0 }
+    summary{ cursor:pointer; font-weight:700; color:#0f766e }
+    ul{ margin:8px 0 0 22px }
+    .question-box{ border:1px solid #e0e0e0; border-radius:12px; background:#fff; padding:12px; margin-top:14px }
+    button{ background:var(--brand); color:#fff; border:none; border-radius:10px; padding:10px 14px; font-weight:700; cursor:pointer; transition:.25s; margin-top:8px }
+    button:hover{ transform:translateY(-1px); box-shadow:0 4px 10px rgba(0,0,0,.12) }
+    .feedback{ margin-top:8px; font-weight:700 }
+    .correct{ color:#0b8a0b } .incorrect{ color:#c62828 }
+    .scorebar{ margin-top:10px; font-size:.95rem } .muted{ opacity:.8 }
+    .pill{ display:inline-block; background:#d1fae5; color:#065f46; border:1px solid #a7f3d0; padding:2px 8px; border-radius:999px; font-size:.85rem; margin-left:8px }
+    .footer{ text-align:center; color:#666; font-size:.85rem; padding:20px 0 }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Active Transport — Exam Notes & Quiz <span class="pill">Cells · Energy (Respiration) · Root hair cells · Intestines</span></h1>
+    <div class="small">Video + exam‑focused notes + 35‑question practice</div>
+  </header>
+
+  <div class="wrap">
+    <section class="video">
+      <div class="video-container">
+        <!-- Updated video link -->
+        <iframe src="https://www.youtube.com/embed/eSCqtdsBgZ8" title="Active Transport video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="notes">
+      <h2>Notes (Key points from the speech)</h2>
+
+      <details open>
+        <summary>What is active transport?</summary>
+        <ul>
+          <li><strong>Active transport</strong> moves substances <strong>against</strong> their concentration gradient (from <em>lower</em> to <em>higher</em> concentration).</li>
+          <li>It <strong>requires energy</strong> (like pushing water up a waterfall) — energy mainly comes from <strong>cellular respiration</strong> (ATP).</li>
+          <li>It uses <strong>special membrane proteins</strong> (carriers/pumps) whose shapes are specific to the molecules transported.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Why not diffusion?</summary>
+        <ul>
+          <li><strong>Diffusion</strong> is <em>passive</em> and only moves particles <strong>down</strong> a concentration gradient (high → low).</li>
+          <li>When the needed substance is already at a <strong>higher concentration inside</strong> the cell, diffusion cannot bring more in — <strong>active transport</strong> is required.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Example 1 — Root hair cells (plants)</summary>
+        <ul>
+          <li>Root hair cells have long <strong>projections</strong> that increase <strong>surface area</strong> for absorption from soil.</li>
+          <li>Some mineral ions (e.g., <strong>magnesium</strong> for chlorophyll) can be at a <strong>lower concentration in soil</strong> than inside the cell.</li>
+          <li>These ions are taken up by <strong>active transport</strong>, using energy from respiration → root hair cells contain many <strong>mitochondria</strong>.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Example 2 — Intestinal epithelial cells (animals)</summary>
+        <ul>
+          <li>After a meal, nutrient concentration is usually <strong>higher in the gut lumen</strong> than in blood, so nutrients can <strong>diffuse</strong> into the bloodstream at first.</li>
+          <li>As absorption continues, the <strong>diffusion gradient decreases</strong>. When diffusion alone is no longer effective, cells <strong>actively transport</strong> nutrients from the lumen into the cell, then they <strong>diffuse into the blood</strong>.</li>
+          <li>Intestinal cells have many tiny projections called <strong>microvilli</strong> (large surface area) and lots of <strong>mitochondria</strong> to supply energy.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Common adaptations for active transport</summary>
+        <ul>
+          <li><strong>Large surface area</strong> (root hairs, microvilli) to increase uptake.</li>
+          <li><strong>Many mitochondria</strong> to release energy by respiration.</li>
+          <li><strong>Specific transport proteins</strong> in the membrane.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Active transport vs diffusion — quick compare</summary>
+        <ul>
+          <li><strong>Direction:</strong> Diffusion <em>down</em> the gradient vs Active transport <em>against</em> the gradient.</li>
+          <li><strong>Energy:</strong> Diffusion is <em>passive</em> (no energy) vs Active transport <em>requires energy</em> from respiration.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="game">
+      <h2>Quiz (35 Questions)</h2>
+      <div id="game-area">
+        <button onclick="startGame()">Start</button>
+        <div class="scorebar muted" id="scorebar">Not started</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer">© Study helper — Active Transport practice</div>
+
+<script>
+// Quiz schema supports: mcq (options, answer index), tf (boolean), and fill (string answer)
+const questions = [
+  // 1
+  {type:"mcq", question:"Active transport moves substances:", options:[
+    "Down a concentration gradient",
+    "Against a concentration gradient",
+    "Only through plasmodesmata",
+    "Only in animal cells"
+  ], answer:1, explanation:"Active transport moves particles from lower to higher concentration."},
+
+  // 2
+  {type:"tf", question:"Diffusion can move particles from low concentration to high concentration without energy.", answer:false, explanation:"Diffusion only works from high to low and is passive."},
+
+  // 3
+  {type:"mcq", question:"The energy for active transport mainly comes from:", options:[
+    "Photosynthesis",
+    "Cellular respiration (ATP)",
+    "Diffusion",
+    "Osmosis"
+  ], answer:1, explanation:"Respiration supplies ATP for pumps to work."},
+
+  // 4
+  {type:"mcq", question:"Membrane proteins used in active transport are often described as:", options:[
+    "Enzymes that digest food",
+    "Carriers or pumps specific to certain molecules",
+    "Random pores that fit anything",
+    "Ribosomes making proteins"
+  ], answer:1, explanation:"Transport proteins are specific in shape and function."},
+
+  // 5
+  {type:"tf", question:"Root hair cells increase absorption because they provide a large surface area.", answer:true, explanation:"Their long projections enlarge the surface for uptake."},
+
+  // 6
+  {type:"mcq", question:"Which mineral mentioned requires active transport into root hair cells when scarce in soil?", options:[
+    "Sodium",
+    "Magnesium",
+    "Iron only",
+    "Calcium only"
+  ], answer:1, explanation:"Magnesium is needed to make chlorophyll and may be lower in soil."},
+
+  // 7
+  {type:"mcq", question:"Why do root hair cells contain many mitochondria?", options:[
+    "For photosynthesis",
+    "To store starch",
+    "To release energy for active transport",
+    "To make cell walls"
+  ], answer:2, explanation:"Mitochondria perform respiration to supply ATP."},
+
+  // 8
+  {type:"tf", question:"If the concentration of nutrients is higher in the intestine than in the blood, diffusion can absorb them without energy.", answer:true, explanation:"Initially, nutrients diffuse down their gradient."},
+
+  // 9
+  {type:"mcq", question:"As intestinal absorption continues and the gradient falls, cells must:", options:[
+    "Stop absorbing entirely",
+    "Switch to active transport from lumen into the cells",
+    "Pump nutrients out of the blood",
+    "Rely on osmosis only"
+  ], answer:1, explanation:"Active transport maintains uptake even when diffusion slows."},
+
+  // 10
+  {type:"mcq", question:"The tiny projections on intestinal cells that increase surface area are called:", options:[
+    "Cilia",
+    "Microvilli",
+    "Flagella",
+    "Root hairs"
+  ], answer:1, explanation:"Microvilli maximise surface area for absorption."},
+
+  // 11
+  {type:"tf", question:"Both root hair cells and intestinal cells commonly have many mitochondria and a large surface area.", answer:true, explanation:"These are shared adaptations for active transport."},
+
+  // 12
+  {type:"mcq", question:"Which statement best contrasts diffusion and active transport?", options:[
+    "Both require energy but only diffusion needs proteins",
+    "Diffusion is passive down the gradient; active transport needs energy against the gradient",
+    "Diffusion is only in plants; active transport only in animals",
+    "Active transport is faster osmosis"
+  ], answer:1, explanation:"This is the key comparison emphasised in the speech."},
+
+  // 13
+  {type:"fill", question:"Active transport uses energy from cellular ______.", answer:"respiration", explanation:"ATP from respiration powers transport."},
+
+  // 14
+  {type:"fill", question:"Diffusion moves particles from ______ concentration to ______ concentration.", answer:"high to low|higher to lower|high→low|higher→lower", explanation:"Any equivalent phrasing is accepted."},
+
+  // 15
+  {type:"fill", question:"Transport proteins used in active transport are often called ______ or ______.", answer:"carriers|pumps|carrier proteins|protein pumps", explanation:"Specific carriers/pumps move molecules."},
+
+  // 16
+  {type:"tf", question:"Active transport can bring a solute into a cell even if the cell already has a higher concentration of that solute.", answer:true, explanation:"That is precisely what 'against the gradient' means."},
+
+  // 17
+  {type:"mcq", question:"Which analogy from the speech describes active transport?", options:[
+    "Rolling a ball downhill",
+    "Water flowing downstream",
+    "Moving water up a waterfall",
+    "Evaporation of water"
+  ], answer:2, explanation:"Moving against the gradient requires energy like pumping water uphill."},
+
+  // 18
+  {type:"mcq", question:"Where do nutrients go immediately after active transport into an intestinal cell?", options:[
+    "They are excreted back into the lumen",
+    "They diffuse into the blood",
+    "They are broken down by lysosomes only",
+    "They enter the nucleus"
+  ], answer:1, explanation:"Once inside the cell, they diffuse into the bloodstream."},
+
+  // 19
+  {type:"tf", question:"When diffusion alone is no longer effective in the intestine, absorption stops completely.", answer:false, explanation:"Cells continue absorption using active transport."},
+
+  // 20
+  {type:"mcq", question:"Which feature directly increases the rate of uptake by providing more membrane for proteins?", options:[
+    "Large surface area from projections",
+    "Thicker cell walls",
+    "Smaller mitochondria",
+    "Larger vacuole only"
+  ], answer:0, explanation:"More surface area means more transport proteins and faster uptake."},
+
+  // 21
+  {type:"mcq", question:"In plants, the extensive network of roots primarily serves to:", options:[
+    "Conduct photosynthesis underground",
+    "Absorb water and mineral ions",
+    "Produce seeds",
+    "Attract pollinators"
+  ], answer:1, explanation:"Roots absorb water and minerals such as magnesium."},
+
+  // 22
+  {type:"tf", question:"Microvilli and root hairs are examples of convergent adaptations for exchange.", answer:true, explanation:"Both increase surface area for transport."},
+
+  // 23
+  {type:"fill", question:"Root hair cells often show many ______ under the microscope due to their energy demand.", answer:"mitochondria", explanation:"They need ATP for pumps."},
+
+  // 24
+  {type:"fill", question:"The inside of the gut is called the intestinal ______.", answer:"lumen", explanation:"Nutrients move from the lumen into cells."},
+
+  // 25
+  {type:"mcq", question:"Which sequence best describes nutrient movement late in absorption?", options:[
+    "Blood → lumen by diffusion",
+    "Lumen → epithelial cell by active transport, then cell → blood by diffusion",
+    "Lumen → blood directly by osmosis only",
+    "Epithelial cell → lumen by active transport"
+  ], answer:1, explanation:"This two-step path is highlighted in the speech."},
+
+  // 26
+  {type:"tf", question:"All movement across membranes requires energy.", answer:false, explanation:"Diffusion is passive and needs no energy."},
+
+  // 27
+  {type:"mcq", question:"Which statement about transport proteins is correct?", options:[
+    "They are non-specific holes that let anything pass",
+    "Their structure is related to the molecule they transport",
+    "They only exist in bacterial cells",
+    "They are located only in the nucleus"
+  ], answer:1, explanation:"Specificity is key to selective transport."},
+
+  // 28
+  {type:"fill", question:"Active transport is necessary when the external concentration is ______ than the internal concentration.", answer:"lower", explanation:"Lower outside than inside requires pumping in."},
+
+  // 29
+  {type:"mcq", question:"Which cellular process directly supplies ATP for active transport?", options:[
+    "Protein synthesis",
+    "DNA replication",
+    "Aerobic respiration",
+    "Mitosis"
+  ], answer:2, explanation:"Respiration generates ATP used by membrane pumps."},
+
+  // 30
+  {type:"tf", question:"Intestinal epithelial cells usually have microvilli to reduce the surface area and prevent over-absorption.", answer:false, explanation:"Microvilli increase surface area to enhance absorption."},
+
+  // 31
+  {type:"fill", question:"Active transport is a(n) ______ process.", answer:"energy-requiring|energy requiring|active", explanation:"It needs energy, unlike diffusion."},
+
+  // 32
+  {type:"mcq", question:"Which of the following is NOT an example given for active transport sites in the speech?", options:[
+    "Root hair cells",
+    "Intestinal epithelial cells",
+    "Neurons at synapses",
+    "Both root hairs and intestinal cells"
+  ], answer:2, explanation:"The speech focuses on root hairs and intestines."},
+
+  // 33
+  {type:"tf", question:"A cell can use active transport to keep its internal concentration of a nutrient high.", answer:true, explanation:"Pumps maintain steep internal concentrations."},
+
+  // 34
+  {type:"fill", question:"The structural surface projections on intestinal cells are called ______ (singular: microvillus).", answer:"microvilli", explanation:"These projections enlarge the surface area."},
+
+  // 35
+  {type:"mcq", question:"Which pairing is correct?", options:[
+    "Diffusion — needs ATP; Active transport — no energy",
+    "Diffusion — high to low; Active transport — low to high",
+    "Diffusion — low to high; Active transport — high to low",
+    "Both processes require the same energy input"
+  ], answer:1, explanation:"This concise contrast is central to the topic."}
+];
+
+let order = [];
+let currentQuestion = 0;
+let score = 0;
+
+function startGame(){
+  order = [...Array(questions.length).keys()].sort(()=>Math.random()-0.5);
+  currentQuestion = 0;
+  score = 0;
+  const area = document.getElementById("game-area");
+  area.innerHTML = `<div id="game-area-inner"></div><div class="scorebar" id="scorebar"></div>`;
+  document.getElementById("scorebar").textContent = `Question ${currentQuestion+1} / ${questions.length}  Score: ${score}`;
+  showQuestion();
+}
+
+function showQuestion(){
+  const wrap = document.getElementById("game-area-inner");
+  const q = questions[order[currentQuestion]];
+  let html = `<div class='question-box'><p><strong>Q${currentQuestion+1}:</strong> ${q.question}</p>`;
+  if(q.type === "mcq"){
+    q.options.forEach((opt,i)=>{ html += `<label><input type="radio" name="opt" value="${i}"> ${opt}</label><br>`; });
+    html += `<button onclick="checkMCQ()">Submit</button>`;
+  }else if(q.type === "tf"){
+    html += `<label><input type="radio" name="opt" value="true"> True</label><br>`;
+    html += `<label><input type="radio" name="opt" value="false"> False</label><br>`;
+    html += `<button onclick="checkTF()">Submit</button>`;
+  }else{
+    html += `<input id="fill" type="text" placeholder="Type your answer" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:8px;">`;
+    html += `<button onclick="checkFill()">Submit</button>`;
+  }
+  html += `<div class="feedback" id="feedback"></div></div>`;
+  wrap.innerHTML = html;
+}
+
+function checkMCQ(){
+  const q = questions[order[currentQuestion]];
+  const sel = document.querySelector('input[name="opt"]:checked');
+  const fb = document.getElementById("feedback");
+  if(!sel){ fb.textContent = "Please select an option."; return; }
+  const correct = parseInt(sel.value,10) === q.answer;
+  if(correct){ score++; fb.innerHTML = `<span class="correct">Correct!</span> ${q.explanation||""}`; }
+  else{ fb.innerHTML = `<span class="incorrect">Incorrect.</span> ${q.explanation||""}`; }
+  setTimeout(nextQuestion, 700);
+}
+
+function checkTF(){
+  const q = questions[order[currentQuestion]];
+  const sel = document.querySelector('input[name="opt"]:checked');
+  const fb = document.getElementById("feedback");
+  if(!sel){ fb.textContent = "Please select True or False."; return; }
+  const val = sel.value === "true";
+  const correct = val === q.answer;
+  if(correct){ score++; fb.innerHTML = `<span class="correct">Correct!</span> ${q.explanation||""}`; }
+  else{ fb.innerHTML = `<span class="incorrect">Incorrect.</span> ${q.explanation||""}`; }
+  setTimeout(nextQuestion, 700);
+}
+
+function checkFill(){
+  const q = questions[order[currentQuestion]];
+  const fb = document.getElementById("feedback");
+  const val = (document.getElementById("fill").value || "").trim().toLowerCase();
+  if(!val){ fb.textContent = "Please type an answer."; return; }
+  let ok = false;
+  if(typeof q.answer === "string"){
+    if(q.answer.includes("|")){
+      ok = q.answer.split("|").map(s=>s.trim().toLowerCase()).includes(val);
+    }else{
+      ok = val === q.answer.trim().toLowerCase();
+    }
+  }
+  if(ok){ score++; fb.innerHTML = `<span class="correct">Correct!</span> ${q.explanation||""}`; }
+  else{ fb.innerHTML = `<span class="incorrect">Incorrect.</span> ${q.explanation||""}`; }
+  setTimeout(nextQuestion, 700);
+}
+
+function nextQuestion(){
+  currentQuestion++;
+  if(currentQuestion < questions.length){
+    document.getElementById("scorebar").textContent = `Question ${currentQuestion+1} / ${questions.length}  Score: ${score}`;
+    showQuestion();
+  }else{
+    endGame();
+  }
+}
+
+function endGame(){
+  const wrap = document.getElementById("game-area-inner");
+  wrap.innerHTML = `<h3>Finished!</h3><p>You scored <b>${score} / ${questions.length}</b>.</p><button onclick="startGame()">Play again</button>`;
+  document.getElementById("scorebar").textContent = `Finished. Final Score: ${score}/${questions.length}`;
+}
+</script>
+</body>
+</html>
